@@ -1,0 +1,621 @@
+﻿@charset "utf-8";
+/* CSS Document */
+body{
+    font-family: Arial, Tahoma;
+    font-size: 12px;
+	
+}
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+#box {
+    background-position: 0 -1px;
+    min-height: 100px;
+    width: 300px;
+	margin: 10px 350px;
+}
+#avata_admin
+{
+	background-position: 0 -1px;
+    min-height: 100px;
+    width: 300px;
+    padding-top: 120px;
+	margin: 5px 350px;
+}
+fieldset 
+{
+	background:#FFF;
+	color:#000;
+	border: 5px solid #CDCDCD;
+}
+/* Trang chinh */
+
+#main2{
+    width: 1200px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#adminbar {
+    color:#FFF;
+    height: 50px;
+    min-width: 450px;
+    background:#23282d;
+}
+#adminmenuwrap {
+	width: 160px;
+	min-height:500px;
+	float:left;
+
+}
+#adminmenu {
+    margin: 12px 0;
+    padding: 0;
+    list-style: none;
+	width: 160px;
+    background-color: #23282d;
+	padding-bottom:auto;
+	min-height:610px;
+	position:relative;
+}
+#adminbar bar
+{
+	width: 230px;
+	list-style-type: none;
+	margin: 100px;
+}
+#admin
+{
+	width: 1020px;
+	min-height:300px;
+	 
+     float:right;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px
+}
+div #title
+{
+	text-align:center;
+	color:#fff;
+    height: 30px;
+}
+#adminmenu  a{
+	color:#FFF;
+	text-decoration: none;
+}
+#adminbar a{
+	color:#FFF;
+	text-decoration: none;
+}
+#adminmenu a:hover{
+	color:#F00;
+}
+#adminbar a:hover{
+	color:#F00;
+}
+#adminmenu li {
+  display: inline-block;
+  width: 140px;
+  height: 70px;
+  line-height: 30px;
+  margin-left: 10px;
+  font-size:20px;
+  position:none;
+}
+#footer_banquyen{
+     height: 18px;
+     clear: both;
+	 text-align:right;
+     border: 1px solid #CDCDCD;
+     background-color: #23282d;
+	 color:#FFF;
+}
+#admin_tacvu1 {
+    color:#000;
+    height: 35px;
+    min-width: 450px;
+}
+#admin_tacvu2 {
+    color:#000;
+    height: 35px;
+    min-width: 450px;
+}
+#bang_danhsach
+{
+	vertical­align:middle;
+	text-align:center;
+	border: 1px solid #CDCDCD;
+	
+}
+#bang_danhsach tr
+{
+	border: 1px solid #CDCDCD;
+	
+}
+#bang_danhsach td
+{
+	border: 1px solid #CDCDCD;
+}
+#bang_danhsach th
+{
+	border: 1px solid #CDCDCD;
+	vertical-align: text-top;
+}
+#phantrang li
+{
+  display: inline-block;
+  width: 40px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#phantrang ul {
+    text-align: center;
+    font-size: 11px;
+	list-style-type: none;
+}
+#phantrang span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #f3f3f3;
+    -moz-border-radius: 3px;
+    color: #999;
+}
+#phantrang span.current {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #e0e0e0;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #666;
+}
+#admin_tacvu3 {
+    color:#000;
+    height: 35px;
+    min-width: 450px;
+	vertical­align:middle;
+	text-align:center;
+	margin-top: 15px;
+}
+#main_post
+{
+	width:750px;
+	min-height:300px;
+	 
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	 margin-top:10px;
+}
+div #tieude
+{
+	text-align:left;
+	padding-top: 0px;
+	color:#fff;
+    height: 30px;
+    background-color:#fff;
+}
+div #baiviet_lq
+{
+
+    height-min: 30px;
+	border: 1px solid #CDCDCD;
+}
+div #upload_img
+{
+	width:280px;
+	border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	 margin-top:10px;
+}
+div #thongtin
+{
+	width:450px;
+	min-height:300px;
+	
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	 margin-top:10px;
+}
+div #thongtin_2
+{
+	width:275px;
+	min-height:300px;
+	
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	margin-top: -10px;
+}
+#congcu
+{
+	width:240px;
+	min-height:100px;
+	
+     float:right;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	margin-top: 20px;
+}
+div #dangbai
+{
+	width:250px;
+	min-height:50px;
+	border: 1px solid #CDCDCD;
+     float:right;
+     margin-left: 0px;
+
+     margin-bottom: 5px;
+}
+h2,h3
+{
+	 background-color:#23282d;
+}
+#main-setup
+{
+	 width:750px;
+	 min-height:300px;
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	 margin-top:10px;
+}
+#congcu_2
+{
+	width:240px;
+	min-height:300px;
+     float:right;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	 margin-top:10px;
+}
+div #luucaidat
+{
+	width:250px;
+	min-height:50px;
+	border: 1px solid #CDCDCD;
+     float:right;
+     margin-left: 0px;
+     margin-bottom: 5px;
+	 position: fixed;
+}
+#duong_dan_tinh
+{
+	background-color:#eaeaea;
+}
+
+#adminmenu .menu_con
+{
+	margin-left: 140px;
+	margin-top: -70px;
+    list-style: none;
+	width: 140px;
+    background-color: #23282d;
+	display:none;
+	padding:0;
+}
+#adminmenu li:hover .menu_con {
+ display: block;
+}
+#adminmenu li .menu_con li {
+  width: 130px;
+  min-height:40px;
+  font-size:16px;
+  text-align:center;
+  display: inline-block;
+  border-bottom:1px solid #CDCDCD;
+  height: 20px;
+}
+#adminmenu li .menu_con li:hover
+{
+	background:#999;
+}
+#adminmenu li:hover
+{
+	background:#999;
+}
+.clear {
+    clear: both;
+}
+div.clear
+	{ clear: both;}
+#hop3
+{
+	width: 275px;
+}
+
+#hop2
+{
+	width: 400px;
+	float: right;
+	margin-bottom: 10px;
+}
+#thongtin3
+{
+	width:425px;
+	min-height:300px;
+	
+     float:right;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	margin-top:-10px;
+	text-align: center;
+}
+.no_change1
+{
+	width:150px;
+	background-color: gainsboro;
+}
+.no_change2
+{
+	width:200px;
+	background-color: gainsboro;
+}
+.no_change3
+{
+	width:120px;
+	background-color: gainsboro;
+}
+
+div #thongbao3
+{
+	width:680px;
+	float: left;
+	min-height:300px;
+    
+     margin-top: 25px;
+}
+#hop4
+{
+	width: 650px;
+	margin-bottom: 10px;
+}
+
+#administrator ul
+{
+	list-style-type: none;
+}
+#administrator li
+{
+	
+	display: inline-block;
+	width: 40px;
+	height: 40px;
+	
+}
+#administrator ul {
+  background:#23282d;
+  list-style-type: none;
+  text-align: center;
+}
+#administrator li {
+  color:#666;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#administrator a {
+  text-decoration: none;
+  color:#fff;
+  display: block;
+}
+#administrator a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+#list-message
+{
+	width:330px;
+	min-height:50px;
+	border: 2px solid #CDCDCD;
+     float:right;
+     margin-left: 0px;
+
+	text-align: center;
+}
+
+#add-menu
+{
+	width:260px;
+	min-height:300px;
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+	margin-top:-10px;
+	text-align: center;
+}
+#hop_2
+{
+	width: 260px;
+	float:left;
+	margin-bottom: 5px;
+}
+#search_message
+{
+	text-align: center;
+	width: 335px;
+	float: right;
+	margin-top: -10px;
+}
+#tool_message
+{
+	width:330px;
+	min-height:50px;
+	border: 2px solid #CDCDCD;
+     float:right;
+     margin-left: 0px;
+     margin-bottom: 20px;
+	margin-top: 8px;
+}
+#chitietthongbao
+{
+	width:680px;
+	float: left;
+	min-height:300px;
+    margin-left: 150px;
+     
+}
+#chitietthongbao ul
+{
+	list-style: none;
+}
+#chitietthongbao li
+{
+	
+}
+.label
+{
+	width: 80px;
+}
+#hop5
+{
+	width: 725px;
+	margin-bottom: 10px;
+}
+div #thongbao4
+{
+	width:725px;
+	float: left;
+	min-height:300px;
+    
+     margin-top: 20px;
+}
+
+#noidung_message
+{
+	height: 300px;
+	width: 600px;
+	border:  1px solid #7A7878;
+	overflow: auto;
+	padding: 15px 15px 15px 15px;
+}
+#khung_sp
+{
+	text-align: center;
+	width: 1020px;
+	margin-top: 20px;
+}
+#vien_sp
+{
+	width: 300px;
+	float: left;
+	margin-bottom: 20px;
+}
+#ql_hinh
+{
+	width: 30px;
+	height: 40px;
+}
+
+
+/*  css hover text */
+.cmt {
+    position: relative;
+    display: inline-block;
+    
+}
+
+.cmt .cmt_text {
+    visibility: hidden;
+    width: 120px;
+    background-color: black;
+    color: #fff;
+    text-align: center;
+    border-radius: 6px;
+    padding: 5px 0;
+
+    /* Position the tooltip */
+    position: absolute;
+    z-index: 1;
+	width: 120px;
+    top: 100%;
+    left: 50%; 
+    margin-left: -60px;
+}
+
+.cmt:hover .cmt_text {
+    visibility: visible;
+}
+#tensanpham
+{
+	font-weight: bold;
+	font-size: 18px;
+}
+#soluong
+{
+	margin-top: 10px;
+}
+#toolquanly
+{
+	margin-left: 10px;
+	width: 20px;
+}
+#tim
+{
+	float: right;
+}
+#form
+{
+	width: 265px;
+	float: left;
+}
+#danhsach_nhapxuat
+{
+	width: 90px;	
+	height: 80px;
+	float: left;
+	margin-left: 30px;
+}
+#back_shop
+{
+	width: 90px;	
+	height: 50px;
+	float: left;
+	margin-top: 30px;
+	margin-left: 30px;
+}
+
+#left
+{
+	float: left;
+	width: 410px;
+	min-height: 50px;
+	margin-bottom: 10px;
+}
+#right
+{
+	float: right;
+	width: 510px;
+	min-height: 50px;
+	margin-right: 20px;
+	margin-bottom: 10px;
+}
+
+#tieude_phantich
+{
+	text-align: center; 
+	font-size: 18px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}

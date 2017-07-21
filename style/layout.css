@@ -1,0 +1,448 @@
+@charset "utf-8";
+/* CSS Document */
+body{
+    
+    font-size: 12px;
+}
+ 
+#main{
+    width: 1000px;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
+}
+#head{
+    height: 275px;
+    background: url(../upload/banner.png) no-repeat;
+    border: 1px solid #CDCDCD;
+    margin-bottom:5px;
+}
+#head-link{
+     height: 40px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:5px;
+     clear: both;
+}
+#tim_kiem{
+     height: 25px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #F5F5F5;
+     margin-bottom:5px;
+     clear: both;
+}
+#left{
+     width: 185px;
+     min-height: 400px;
+     float:left;
+     background-color:#FFF;
+     margin-bottom: 5px;
+}
+#danhmuc
+{
+	width:185px;
+	min-height:180px;
+	border: 1px solid #CDCDCD;
+	margin-top:5px;
+}
+#baner
+{
+	width:185px;
+	min-height:180px;
+	border: 1px solid #CDCDCD;
+	margin-top:5px;
+}
+#content{
+     width: 600px;
+     min-height: 200px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+
+#content .center_title {
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+	background:#930;
+    color: #FFF;
+}
+#content_chitiet{
+     width: 600px;
+     min-height: 330px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 5px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#content_chitiet .center_title {
+    height: 30px;
+    line-height: 30px;
+    text-align:center;
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+	background:#930;
+    color: #FFF;
+}
+#content_sanphamlienquan{
+     width: 600px;
+     min-height: 200px;
+     border: 1px solid #CDCDCD;
+     float:left;
+     margin-left: 0px;
+     margin-right: 5px;
+     margin-bottom: 5px;
+}
+#comment{
+     width: 600px;
+     min-height: 200px;
+     border: 1px solid #CDCDCD;
+}
+#box {
+    background-position: 0 -1px;
+    min-height: 290px;
+    width: 160px;
+    float: left;
+    margin-left: 0px;
+    padding: 3px 13px;
+	margin: 0px 7px;
+}
+#box .borer_right_nont {
+    border-right: none;
+}
+#box .tieude {
+    min-height: 30px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    height: 40px;
+	margin-left: -20px;
+}
+#box .img {
+    min-height: 235px;
+    border: none;
+	margin-left:-10px;
+}
+#box .gia {
+    text-align: center;
+    color: #F00;
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 20px;
+}
+#box .xemchitiet_sanpham {
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    margin: 0px 5px;
+}
+#box_noibat {
+    background-position: 0 -1px;
+    min-height: 290px;
+    width: 195px;
+    margin-left: 0px;
+    padding: 3px 13px;
+	margin-bottom: 35px;
+}
+#box_noibat .tieude {
+    min-height: 30px;
+    line-height: 20px;
+    text-align: center;
+    padding-top: 5px;
+    height: 40px;
+}
+#box_noibat .gia {
+    text-align: center;
+    color: #F00;
+    font-weight: bold;
+    margin-top: 5px;
+    line-height: 20px;
+}
+#box_noibat .xemchitiet_sanpham {
+    text-align: center;
+    padding-top: 5px;
+    float: left;
+    margin: 0px 5px;
+}
+#right{
+	 width: 200px;
+     min-height: 400px;
+     float:right;
+     background-color:#FFF;
+     margin-bottom: 5px;
+}
+#sanphamnoibat
+{
+	width:200px;
+	min-height:130px;
+	border: 1px solid #CDCDCD;
+	margin-top:5px;
+	
+}
+#pagination {
+    padding: 3px;
+    margin: 3px;
+    text-align: center;
+    font-size: 11px;
+}
+.linkpost
+{
+	background:#FFF;
+}
+.linkpost a
+{
+	text-decoration: none;
+  	color:#F93;
+}
+
+.linkpost  a:hover {
+  color:#00C;
+}
+#pagination span.disabled {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #f3f3f3;
+    -moz-border-radius: 3px;
+    color: #999;
+}
+#pagination span.current {
+    padding: 2px 5px 2px 5px;
+    margin-right: 2px;
+    border: 1px solid #e0e0e0;
+    -moz-border-radius: 3px;
+    font-weight: bold;
+    background-color: #f0f0f0;
+    color: #666;
+}
+#footer{
+     height: 50px;
+     clear: both;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+}
+#footer .footer1
+{
+	background-position: 0 -1px;
+    min-height: 290px;
+    width: 320px;
+    float: left;
+    margin-left: 0px;
+    padding-left: 8px;
+	padding-top: 5px;
+	margin: 0px 1px;
+}
+#footer .footer2
+{
+	background-position: 0 -1px;
+    min-height: 290px;
+    width: 320px;
+    float: left;
+    margin-left: 0px;
+    padding: 5px 3px;
+	margin: 0px 1px;
+}
+#footer .footer3
+{
+	background-position: 0 -1px;
+    min-height: 290px;
+    width: 320px;
+    float: left;
+    margin-left: 0px;
+    padding: 5px 3px;
+	margin: 0px 1px;
+}
+#footer_banquyen{
+     height: 15px;
+     clear: both;
+	 text-align:right;
+     border: 1px solid #CDCDCD;
+     background-color: #F8F8FF;
+}
+/*==Reset CSS==*/
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*==Style cơ bản cho website==*/
+body {
+  font-family: sans-serif;
+  color: #333;
+}
+
+/*==Style cho menu1===*/
+#menu1 ul {
+  background:#930;
+  list-style-type: none;
+  text-align: center;
+}
+#menu1 li {
+  color:#666;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu1 a {
+  text-decoration: none;
+  color:#fff;
+  display: block;
+}
+#menu1 a:hover {
+  background: #F1F1F1;
+  color: #333;
+}
+/*==Style cho menu2===*/
+#menu2 ul {
+  background:#FFF;
+  text-align: center;
+}
+#menu2 li {
+  color:#666;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+  line-height: 40px;
+  margin-left: -5px;
+}
+#menu2 a {
+  text-decoration: none;
+  color:#903;
+  display: block;
+}
+#menu2 a:hover {
+  background: #F1F1F1;
+  color: #f00;
+}
+div.div_title {
+	text-align:center;
+	padding-top: 8px;
+	color:#fff;
+    height: 30px;
+    background-color:#930;
+	
+}
+.clear {
+    clear: both;
+}
+#box_img_chitiet {
+    background-position: 0 -1px;
+    min-height: 200px;
+    width: 250px;
+    float: left;
+    margin-left: 0px;
+    padding: 3px 13px;
+	margin: 30px 7px;
+}
+#box_img_chitiet .img {
+    min-height: 180px;
+    border: none;
+}
+#box_text_chitiet {
+    background-position: 0 -1px;
+    min-height: 200px;
+    width: 270px;
+    float: left;
+    margin-left: 0px;
+    padding: 3px 13px;
+	margin: 60px 7px;
+}
+#anhphu
+{
+	padding-left:20px;
+	margin: 0px 0px;
+}
+#box_img_chitiet .xemchitiet_sanpham {
+    text-align: center;
+    padding-top: 25px;
+    margin: 0px 20px;
+}
+#dangnhap
+{
+	 height: 35px;
+     line-height: 30px;
+     padding-left: 10px;
+     padding-right: 10px;
+     border: 1px solid #CDCDCD;
+     background-color: #930;
+     margin-bottom:5px;
+	 color: white;
+     clear: both;
+}
+#menu_tk li
+{
+	width: 100px;
+	list-style: none;
+	color:white;
+	text-align: right;
+}
+#menu_tk .taikhoan {
+ position: absolute;
+ top: 30px;
+ display: none;
+	margin-left: 80px;
+}
+#menu_tk li:hover .taikhoan {
+ display: block;
+}
+#menu_tk a {
+  text-decoration: none;
+  color:#000;
+  display: block;
+}
+#menu_tk a:hover {
+  color: #333;
+}
+#menu_tk ul {
+	float: right;
+  background:#F1F1F1;
+  list-style-type: none;
+  text-align: center;
+}
+#menu_tk li .taikhoan li:hover
+{
+	background:#C96;
+}
+#menu_tk li:hover
+{
+	color:#C96;
+}
+#1:hover
+{
+	width:30px;
+}
+#pagination li
+{
+     display: inline-block;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    margin-left: -5px;
+}
+#pagination  ul {
+	list-style-type: none;
+    text-align: center;
+	list-style: none;
+	
+}
+
+#share
+{
+	margin-left: 25px;
+}
